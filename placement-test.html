@@ -8,8 +8,11 @@
   <script defer src="script.js"></script>
 </head>
 <body>
-  <header>
-    <img src="img/logo_unimag.png" alt="Logo Unimagdalena" class="logo" />
+    <header>
+    <div class="header-logos">
+      <img src="img/unimag_logo.png" alt="Logo Unimagdalena" class="logo" />
+      <img src="img/cdpl_logo.png" alt="Logo CDPL" class="logo" />
+    </div>
     <h1>Examen de Diagnóstico de Inglés</h1>
     <p>Universidad del Magdalena</p>
   </header>
@@ -80,22 +83,18 @@
         <button type="submit">Comenzar examen</button>
       </form>
     </section>
-
     <section id="test-section" style="display:none">
       <div id="timer" class="timer">120:00</div>
-
       <h2>Parte 1: Evaluación de Español</h2>
       <div id="spanish-section">
         <!-- Insertar preguntas 6–55 aquí (placeholder) -->
         <p>[Preguntas de diagnóstico de español aparecerán aquí]</p>
       </div>
-
       <h2>Parte 2: Evaluación de Inglés</h2>
       <div id="english-section">
         <!-- Insertar preguntas 56–115 aquí (placeholder) -->
         <p>[Preguntas de diagnóstico de inglés aparecerán aquí]</p>
       </div>
-
       <h2>Parte 3: Producción Escrita</h2>
       <div id="writing-section">
         <p>Elige una de las siguientes opciones y escribe entre 80 y 150 palabras.</p>
@@ -103,11 +102,9 @@
         <label><input type="radio" name="writing-choice" value="B1" /> Opción B (B1): Algunas personas prefieren estudiar en la mañana, otras en la noche. ¿Qué opinas?</label><br /><br />
         <textarea name="writing-response" rows="10" cols="80" placeholder="Escribe tu texto aquí..." required></textarea>
       </div>
-
       <button type="submit" id="submit-button">Enviar respuestas</button>
     </section>
   </main>
-
   <footer>
     <p>Centro de Plurilingüismo - Universidad del Magdalena</p>
   </footer>
