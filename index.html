@@ -6,17 +6,40 @@
   <title>Examen de Diagnóstico - Unimagdalena</title>
   <link rel="stylesheet" href="styles.css" />
   <script defer src="script.js"></script>
+  <style>
+    header {
+      background-color: #e8edf2;
+      color: #003366;
+      padding: 20px;
+      text-align: center;
+    }
+    .header-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .header-logos img {
+      height: 100px;
+      object-fit: contain;
+    }
+    .header-logos img:last-child {
+      height: 100px;
+      max-width: 200px;
+    }
+  </style>
 </head>
 <body>
-    <header>
+  <header>
     <div class="header-logos">
-      <img src="img/unimag_logo.png" alt="Logo Unimagdalena" class="logo" />
-      <img src="img/cdpl_logo.png" alt="Logo CDPL" class="logo" />
+      <img src="img/logo_unimag.png" alt="Logo Unimagdalena" class="logo" />
+      <img src="img/logo_cdpl.png" alt="Logo CDPL" class="logo" />
     </div>
     <h1>Examen de Diagnóstico de Inglés</h1>
     <p>Universidad del Magdalena</p>
   </header>
-
   <main>
     <section id="student-info">
       <h2>Datos del Estudiante</h2>
@@ -87,12 +110,10 @@
       <div id="timer" class="timer">120:00</div>
       <h2>Parte 1: Evaluación de Español</h2>
       <div id="spanish-section">
-        <!-- Insertar preguntas 6–55 aquí (placeholder) -->
         <p>[Preguntas de diagnóstico de español aparecerán aquí]</p>
       </div>
       <h2>Parte 2: Evaluación de Inglés</h2>
       <div id="english-section">
-        <!-- Insertar preguntas 56–115 aquí (placeholder) -->
         <p>[Preguntas de diagnóstico de inglés aparecerán aquí]</p>
       </div>
       <h2>Parte 3: Producción Escrita</h2>
