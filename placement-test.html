@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Examen de Diagnóstico - Unimagdalena</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="img/logo_unimag.png" alt="Logo Unimagdalena" class="logo" />
+    <h1>Examen de Diagnóstico de Inglés</h1>
+    <p>Universidad del Magdalena</p>
+  </header>
+
+  <main>
+    <section id="student-info">
+      <h2>Datos del Estudiante</h2>
+      <form id="info-form">
+        <label>Nombre completo:<input type="text" name="nombre" required /></label>
+        <label>Número de documento:<input type="text" name="documento" required /></label>
+        <label>Código de estudiante:<input type="text" name="codigo" required /></label>
+        <label>Correo institucional:<input type="email" name="correo" /></label>
+        <label>Facultad:
+          <select name="facultad" required>
+            <option value="">Seleccione</option>
+            <option>Ciencias de la Educación</option>
+            <option>Ciencias Básicas</option>
+            <option>Ciencias de la Salud</option>
+            <option>Ciencias Empresariales y Económicas</option>
+            <option>Ciencias Humanas</option>
+            <option>Ingeniería</option>
+            <option>Ciencias Jurídicas</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <label>Programa Académico:
+          <select name="programa" required>
+            <option value="">Seleccione</option>
+            <option>Administración de Empresas</option>
+            <option>Administración de Empresas Turísticas y Hoteleras por Ciclos Propedéuticos</option>
+            <option>Antropología</option>
+            <option>Biología</option>
+            <option>Cine y Audiovisuales</option>
+            <option>Contaduría Pública</option>
+            <option>Derecho</option>
+            <option>Economía</option>
+            <option>Enfermería</option>
+            <option>Historia y Patrimonio</option>
+            <option>Ingeniería Agronómica</option>
+            <option>Ingeniería Ambiental y Sanitaria</option>
+            <option>Ingeniería Civil</option>
+            <option>Ingeniería de Sistemas</option>
+            <option>Ingeniería Electrónica</option>
+            <option>Ingeniería Industrial</option>
+            <option>Ingeniería Pesquera</option>
+            <option>Ingeniería Marino Costera</option>
+            <option>Licenciatura en Artes</option>
+            <option>Licenciatura en Educación Básica con énfasis en Informática</option>
+            <option>Licenciatura en Ciencias Naturales y Educación Ambiental</option>
+            <option>Licenciatura en Educación Campesina y Rural</option>
+            <option>Licenciatura en Educación Infantil</option>
+            <option>Licenciatura en Etnoeducación</option>
+            <option>Licenciatura en Informática</option>
+            <option>Licenciatura en Lenguas Extranjeras con énfasis en Inglés</option>
+            <option>Licenciatura en Literatura y Lengua Castellana</option>
+            <option>Licenciatura en Matemáticas</option>
+            <option>Licenciatura en Preescolar</option>
+            <option>Licenciatura en Química</option>
+            <option>Licenciatura en Tecnología</option>
+            <option>Medicina</option>
+            <option>Negocios Internacionales</option>
+            <option>Odontología</option>
+            <option>Psicología</option>
+            <option>Talento Santa Marta (no se ha definido mi facultad y/o programa)</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <button type="submit">Comenzar examen</button>
+      </form>
+    </section>
+
+    <section id="test-section" style="display:none">
+      <div id="timer" class="timer">120:00</div>
+
+      <h2>Parte 1: Evaluación de Español</h2>
+      <div id="spanish-section">
+        <!-- Insertar preguntas 6–55 aquí (placeholder) -->
+        <p>[Preguntas de diagnóstico de español aparecerán aquí]</p>
+      </div>
+
+      <h2>Parte 2: Evaluación de Inglés</h2>
+      <div id="english-section">
+        <!-- Insertar preguntas 56–115 aquí (placeholder) -->
+        <p>[Preguntas de diagnóstico de inglés aparecerán aquí]</p>
+      </div>
+
+      <h2>Parte 3: Producción Escrita</h2>
+      <div id="writing-section">
+        <p>Elige una de las siguientes opciones y escribe entre 80 y 150 palabras.</p>
+        <label><input type="radio" name="writing-choice" value="A2" required /> Opción A (A2): Describe un día típico en la universidad.</label><br />
+        <label><input type="radio" name="writing-choice" value="B1" /> Opción B (B1): Algunas personas prefieren estudiar en la mañana, otras en la noche. ¿Qué opinas?</label><br /><br />
+        <textarea name="writing-response" rows="10" cols="80" placeholder="Escribe tu texto aquí..." required></textarea>
+      </div>
+
+      <button type="submit" id="submit-button">Enviar respuestas</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Centro de Plurilingüismo - Universidad del Magdalena</p>
+  </footer>
+</body>
+</html>
