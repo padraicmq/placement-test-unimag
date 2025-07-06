@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evaluación de Español</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="header-logos">
+      <img src="img/logo_unimag.png" alt="Logo Unimagdalena" class="logo" />
+      <img src="img/logo_cdpl.png" alt="Logo CDPL" class="logo" />
+    </div>
+    <h1>Parte 1: Evaluación de Español</h1>
+  </header>
+
+  <main>
+    <form id="spanish-form">
+      <p>Responde a las siguientes preguntas relacionadas con el uso del español. Esta sección tiene como propósito evaluar tu competencia en tu lengua materna.</p>
+
+<!-- Pregunta 6 -->
+<div class="question">
+  <p>6. ¿Cuál de los siguientes es un sustantivo común? *</p>
+  <label><input type="radio" name="q6" value="a"> El Quijote</label><br>
+  <label><input type="radio" name="q6" value="b"> María</label><br>
+  <label><input type="radio" name="q6" value="c"> España</label><br>
+  <label><input type="radio" name="q6" value="d"> Ciudad</label><br>
+</div>
+
+<!-- Pregunta 7 -->
+<div class="question">
+  <p>7. ¿Cuál de los siguientes es un sustantivo propio? *</p>
+  <label><input type="radio" name="q7" value="a"> Libro</label><br>
+  <label><input type="radio" name="q7" value="b"> Niño</label><br>
+  <label><input type="radio" name="q7" value="c"> Playa</label><br>
+  <label><input type="radio" name="q7" value="d"> Bogotá</label><br>
+</div>
+
+<!-- Pregunta 8 -->
+<div class="question">
+  <p>8. Completa la oración: “Ayer ____ al cine con mis amigos para ver la nueva película”. *</p>
+  <label><input type="radio" name="q8" value="a"> vamos</label><br>
+  <label><input type="radio" name="q8" value="b"> iré</label><br>
+  <label><input type="radio" name="q8" value="c"> fui</label><br>
+  <label><input type="radio" name="q8" value="d"> íbamos</label><br>
+</div>
+
+<!-- Pregunta 9 -->
+<div class="question">
+  <p>9. Completa la oración: “Si llueve mañana, ____ en casa viendo películas”. *</p>
+  <label><input type="radio" name="q9" value="a"> me quedaré</label><br>
+  <label><input type="radio" name="q9" value="b"> quedarse</label><br>
+  <label><input type="radio" name="q9" value="c"> me quedaba</label><br>
+  <label><input type="radio" name="q9" value="d"> me quedaría</label><br>
+</div>
+
+<!-- Pregunta 10 -->
+<div class="question">
+  <p>10. ¿Cuál de los siguientes es un adjetivo? *</p>
+  <label><input type="radio" name="q10" value="a"> El</label><br>
+  <label><input type="radio" name="q10" value="b"> Con</label><br>
+  <label><input type="radio" name="q10" value="c"> Pequeña</label><br>
+  <label><input type="radio" name="q10" value="d"> Rápidamente</label><br>
+</div>
+
+<!-- Pregunta 11 -->
+<div class="question">
+  <p>11. Selecciona el adjetivo calificativo que completa la siguiente oración: “El examen es ________”. *</p>
+  <label><input type="radio" name="q11" value="a"> Académico</label><br>
+  <label><input type="radio" name="q11" value="b"> Difícil</label><br>
+  <label><input type="radio" name="q11" value="c"> Uno</label><br>
+  <label><input type="radio" name="q11" value="d"> Mío</label><br>
+</div>
+
+<!-- Pregunta 12 -->
+<div class="question">
+  <p>12. ¿Cuál de los siguientes es un adverbio? *</p>
+  <label><input type="radio" name="q12" value="a"> Mañana</label><br>
+  <label><input type="radio" name="q12" value="b"> Con</label><br>
+  <label><input type="radio" name="q12" value="c"> Roer</label><br>
+  <label><input type="radio" name="q12" value="d"> Encima</label><br>
+</div>
+
+<!-- Pregunta 13 -->
+<div class="question">
+  <p>13. ¿Cuál de los siguientes es un adverbio de lugar? *</p>
+  <label><input type="radio" name="q13" value="a"> Bien</label><br>
+  <label><input type="radio" name="q13" value="b"> Antes</label><br>
+  <label><input type="radio" name="q13" value="c"> Nunca</label><br>
+  <label><input type="radio" name="q13" value="d"> Allí</label><br>
+</div>
+
+<!-- Pregunta 14 -->
+<div class="question">
+  <p>14. Completa la oración: “____ vamos al cine, pero esta semana no podemos”. *</p>
+  <label><input type="radio" name="q14" value="a"> Entonces</label><br>
+  <label><input type="radio" name="q14" value="b"> Mañana</label><br>
+  <label><input type="radio" name="q14" value="c"> Siempre</label><br>
+  <label><input type="radio" name="q14" value="d"> Hoy</label><br>
+</div>
+
+<!-- Pregunta 15 -->
+<div class="question">
+  <p>15. Elige la opción que complete correctamente la oración: "El mercado ____ fui la semana pasada está lleno de productos frescos." *</p>
+  <label><input type="radio" name="q15" value="a"> cuando</label><br>
+  <label><input type="radio" name="q15" value="b"> en que</label><br>
+  <label><input type="radio" name="q15" value="c"> que</label><br>
+  <label><input type="radio" name="q15" value="d"> donde</label><br>
+</div>
+
+
+
+<button type="submit">Continuar</button>
+</form>
+</main>
+<footer>
+<p>Centro de Plurilingüismo - Universidad del Magdalena</p>
+</footer>
+</body>
+</html>
+
